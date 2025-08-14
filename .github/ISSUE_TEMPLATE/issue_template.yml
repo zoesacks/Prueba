@@ -38,7 +38,7 @@ body:
     id: documento-diseno
     attributes:
       label: "Documento de diseño"
-      placeholder: "Incluye el enlace al documento o marcar como 'No corresponde'."
+      description: "Incluye el enlace al documento o marcar como 'No corresponde'."
       value: "No corresponde"
     validations:
       required: false
@@ -47,7 +47,8 @@ body:
     id: documento-pruebas
     attributes:
       label: "Documento de pruebas"
-      placeholder: "Incluye el enlace al documento o marcar como 'No corresponde'."
+      description: "Incluye el enlace al documento o marcar como 'No corresponde'."
+      value: "No corresponde"
     validations:
       required: false
 
