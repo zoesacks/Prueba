@@ -4,7 +4,6 @@ description:  Descripcion
 title: Issue
 labels: bug
 assignees: zoesacks
-projects: " "
 
 body:
   - type: textarea
