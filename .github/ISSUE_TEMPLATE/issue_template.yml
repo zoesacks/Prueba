@@ -2,13 +2,16 @@
 name: Reporte
 description:  Descripcion
 title: Issue
+labels: bug
+assignees: zoesacks
+projects: Project
 
 body:
   - type: textarea
     id: describe-solicitud
     attributes:
       label: "Describe la solicitud"
-      description: "Descripción de lo que se necesita: Solicitud de ajuste - Solicitud de desarrollo o Resolución de incidentes."
+      placeholder: "Descripción de lo que se necesita: Solicitud de ajuste - Solicitud de desarrollo o Resolución de incidentes."
     validations:
       required: true
 
@@ -27,8 +30,7 @@ body:
     id: documentos-cliente
     attributes:
       label: "Documentos del cliente"
-      description: "Adjunta tickets, mails u otros documentos donde se haya realizado la solicitud."
-      placeholder: "Link o adjunto"
+      placeholder: "Adjunta tickets, mails u otros documentos donde se haya realizado la solicitud."
     validations:
       required: true
 
@@ -36,24 +38,22 @@ body:
     id: documento-diseno
     attributes:
       label: "Documento de diseño"
-      description: "Incluye el enlace al documento o marcar como 'No corresponde'."
-      placeholder: "Link al documento"
+      placeholder: "Incluye el enlace al documento o marcar como 'No corresponde'."
     validations:
-      required: true
+      required: false
 
   - type: input
     id: documento-pruebas
     attributes:
       label: "Documento de pruebas"
-      description: "Incluye el enlace al documento o marcar como 'No corresponde'."
-      placeholder: "Link al documento"
+      placeholder: "Incluye el enlace al documento o marcar como 'No corresponde'."
     validations:
-      required: true
+      required: false
 
   - type: textarea
     id: comentarios-adicionales
     attributes:
       label: "Comentarios adicionales"
-      description: "Notas extras."
+      placeholder: "Notas extras."
     validations:
-      required: true
+      required: false
