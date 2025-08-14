@@ -12,16 +12,18 @@ body:
     validations:
       required: true
 
-  - type: checkboxes
+  - type: textarea
     id: backlog-priorizado
     attributes:
       label: "Backlog priorizado"
       description: "Lista de tareas en orden de prioridad"
-      options:
+      value: |
         - label: "Tarea uno"
         - label: "Tarea dos"
         - label: "Revisar \"...\""
         - label: "Validar con \"...\""
+        ...
+      render: bash
 
   - type: textarea
     id: documentos-cliente
