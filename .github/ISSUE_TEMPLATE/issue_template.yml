@@ -1,0 +1,59 @@
+---
+name: Reporte
+description:  Descripcion
+title: Issue
+
+body:
+  - type: textarea
+    id: describe-solicitud
+    attributes:
+      label: "Describe la solicitud"
+      description: "Descripción de lo que se necesita: Solicitud de ajuste - Solicitud de desarrollo o Resolución de incidentes."
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: backlog-priorizado
+    attributes:
+      label: "Backlog priorizado"
+      description: "Lista de tareas en orden de prioridad"
+      options:
+        - label: "Tarea uno"
+        - label: "Tarea dos"
+        - label: "Revisar \"...\""
+        - label: "Validar con \"...\""
+
+  - type: textarea
+    id: documentos-cliente
+    attributes:
+      label: "Documentos del cliente"
+      description: "Adjunta tickets, mails u otros documentos donde se haya realizado la solicitud."
+      placeholder: "Link o adjunto"
+    validations:
+      required: true
+
+  - type: input
+    id: documento-diseno
+    attributes:
+      label: "Documento de diseño"
+      description: "Incluye el enlace al documento o marcar como 'No corresponde'."
+      placeholder: "Link al documento"
+    validations:
+      required: true
+
+  - type: input
+    id: documento-pruebas
+    attributes:
+      label: "Documento de pruebas"
+      description: "Incluye el enlace al documento o marcar como 'No corresponde'."
+      placeholder: "Link al documento"
+    validations:
+      required: true
+
+  - type: textarea
+    id: comentarios-adicionales
+    attributes:
+      label: "Comentarios adicionales"
+      description: "Notas extras."
+    validations:
+      required: true
