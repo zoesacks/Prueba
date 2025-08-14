@@ -18,10 +18,10 @@ body:
       label: "Backlog priorizado"
       description: "Lista de tareas en orden de prioridad"
       value: |
-        - label: "Tarea uno"
-        - label: "Tarea dos"
-        - label: "Revisar \"...\""
-        - label: "Validar con \"...\""
+        - [ ]  Tarea uno
+        - [ ]  Tarea dos
+        - [ ]  Revisar \"...\"
+        - [ ]  Validar con \"...\"
         ...
 
   - type: textarea
