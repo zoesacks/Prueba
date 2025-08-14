@@ -23,7 +23,6 @@ body:
         - label: "Revisar \"...\""
         - label: "Validar con \"...\""
         ...
-      render: bash
 
   - type: textarea
     id: documentos-cliente
