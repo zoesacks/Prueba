@@ -22,7 +22,6 @@ body:
         - [ ]  Tarea dos
         - [ ]  Revisar \"...\"
         - [ ]  Validar con \"...\"
-        ...
 
   - type: textarea
     id: documentos-cliente
